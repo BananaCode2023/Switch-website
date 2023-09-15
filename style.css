@@ -1,0 +1,111 @@
+body{
+  background-color: rgb(39, 39, 39);
+}
+
+.button{
+  padding: 10px 20px;
+  border-radius: 1rem;
+  border: none;
+  font-weight: 600;
+}
+.red{
+  background-color: rgb(218, 54, 54);
+  color: white;
+  transition: 0.1s;
+}
+.blue{
+  background-color: rgb(30, 27, 209);
+  color: white;
+  transition: 0.1s;
+}
+.yellow{
+  background-color: rgb(236, 233, 20);
+  color: rgb(39, 39, 39);
+  transition: 0.1s;
+}
+.green{
+  background-color: rgb(8, 182, 23);
+  color: rgb(255, 255, 255);
+  transition: 0.1s;
+}
+.violet{
+  background-color: rgb(202, 0, 158);
+  color: rgb(255, 255, 255);
+  transition: 0.1s;
+}
+.white{
+  background-color: rgb(255, 255, 255);
+  color: rgb(39, 39, 39);
+  transition: 0.1s;
+}
+.orange{
+  background-color: rgb(255, 115, 0);
+  color: rgb(39, 39, 39);
+  transition: 0.1s;
+}
+.pink{
+  background-color: rgb(255, 31, 162);
+  color: rgb(39, 39, 39);
+  transition: 0.1s;
+}
+.teal{
+  background-color: #059b89;
+  color: rgb(39, 39, 39);
+  transition: 0.1s;
+}
+.magenta{
+  background-color: #ff00ff;
+  color: rgb(39, 39, 39);
+  transition: 0.1s;
+}
+.container{
+  margin-top: 20px;
+  width: 1000px;
+  display: flex;
+  margin-inline: auto;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+#lightBulb{
+  margin-inline: auto;
+  text-align: center;
+  margin-block: 50px;
+  opacity: 100;
+
+  animation: fadeIn 0.7s; 
+}
+#turnPower{
+  padding: 10px 20px;
+  border-radius: 1rem;
+  border: none;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: 0.1s;
+}
+.button:active{
+  transform: translateY(3px);
+}
+#turnPower:active{
+  transform: translateY(3px);
+}
+#turnPower:hover{
+  color: white;
+  border-color: white;
+  border-style: solid;
+  background-color: rgb(39, 39, 39);
+}
+h1{
+  color: white;
+}
+
+@keyframes fadeIn {  
+  from {  
+      opacity:0;  
+  }  
+
+  to {  
+      opacity:1;  
+  }  
+}
